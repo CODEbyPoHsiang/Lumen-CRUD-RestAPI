@@ -33,7 +33,8 @@ DB 編碼:utf8mb4_unicode_ci
 ```
   php artisan key:generate
 ```
-https://packagist.org/packages/maxsky/lumen-app-key-generator
+> https://packagist.org/packages/maxsky/lumen-app-key-generator
+
 7. migrate 自動生成資料表
 ```
   php artisan migrate
