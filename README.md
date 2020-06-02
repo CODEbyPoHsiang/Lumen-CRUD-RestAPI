@@ -48,3 +48,14 @@ DB 編碼:utf8mb4_unicode_ci
 ```
   http://localhost:8000
 ```
+---------------------------------
+取消註解   
+# bootstrap/app.php
+```
+$app->withFacades();
+$app->withEloquent();
+
+$app->register(App\Providers\AppServiceProvider::class);
+$app->register(App\Providers\AuthServiceProvider::class);
+$app->register(App\Providers\EventServiceProvider::class);
+```
